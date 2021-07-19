@@ -14,17 +14,17 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_ID = 7553270  # integer value, dont use ""
+    API_HASH = "d2600d75e7814b83ff851f6f00472283"
+    TOKEN = "1744451947:AAGqkPYNt_Ug4GuUA1ciBtgRpXkUlj81kpI"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Sawada"
-    SUPPORT_CHAT = "OnePunchSupport"  # Your own group for support, do not add the @
+    OWNER_USERNAME = "pyth0n_Everywhere"
+    SUPPORT_CHAT = "phithonej"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001253661229
+        -1001528685624
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001190806654
+        -1001528685624
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
@@ -35,7 +35,7 @@ class Config(object):
     INFOPIC = True
     URL = None
     SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
-    SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
+    SPAMWATCH_SUPPORT_CHAT = "@phithonej"
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
